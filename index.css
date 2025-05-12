@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #023047;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Digital-7';
+ src: url(digital-7.ttf);    
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.score {
+    background-color: #001219;
+    color: #ef233c;
+    font-size: 90px;
+    width: 135px;
+    height: 100px;
+    margin: 20px;
+    font-family: 'Digital-7';
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+    color: #bbd0ff;
+    font-family: Digital-7;
+    border-color: #caf0f8;
+    border-radius: 6px;
+    padding: 5px 5px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid;
+}
